@@ -2034,6 +2034,13 @@ var Icon$15 = function (props) {
             React.createElement("path", { id: "Shape", d: "m6.05 6.68c-.10156011.25804893-.09140308.54668422.02804477.7969559.11944785.25027169.33745932.43970373.60195523.5230441 3.14 1 3.04 1 3.32 1 .4927375.00386501.9148502-.35178371.9946449-.83803264.0797947-.48624892-.2065147-.95815151-.6746449-1.11196736l-3-1c-.25193645-.08555066-.52757913-.06717426-.76592958.05106258-.23835046.11823684-.41975528.32658479-.50407042.57893742z" }))));
 };
 
+var Icon$16 = function (props) {
+    return (React.createElement(Svg, __assign({ viewBox: "-140 -250 1300 1300" }, props),
+        React.createElement("g", null,
+            React.createElement("path", { d: "M864 768h-512c-88 0-160-72-160-160v-512c0-88 72-160 160-160h512c88 0 160 72 160 160v512c0 88-72 160-160 160zM416 64c-53.020 0-96 42.98-96 96s42.98 96 96 96 96-42.98 96-96-42.98-96-96-96zM416 448c-53.020 0-96 42.98-96 96s42.98 96 96 96 96-42.98 96-96-42.98-96-96-96zM608 256c-53.020 0-96 42.98-96 96s42.98 96 96 96 96-42.98 96-96-42.98-96-96-96zM800 64c-53.020 0-96 42.98-96 96s42.98 96 96 96 96-42.98 96-96-42.98-96-96-96zM800 448c-53.020 0-96 42.98-96 96s42.98 96 96 96 96-42.98 96-96-42.98-96-96-96zM828.76 832c-14.93 72.804-79.71 128-156.76 128h-512c-88 0-160-72-160-160v-512c0-77.046 55.196-141.83 128-156.76v636.76c0 35.2 28.8 64 64 64h636.76z" }))));
+};
+
+
 var IconModule = /*#__PURE__*/Object.freeze({
     __proto__: null,
     FarmIcon: Icon$I,
@@ -2062,7 +2069,8 @@ var IconModule = /*#__PURE__*/Object.freeze({
     RoadmapIcon: Icon$12,
     BondsIcon: Icon$13,
     VaultsIcon: Icon$14,
-    EggHouseIcon: Icon$15
+    EggHouseIcon: Icon$15,
+    DiceIcon: Icon$16,
 });
 
 var MenuButton = styled(Button)(templateObject_1$x || (templateObject_1$x = __makeTemplateObject(["\n  color: ", ";\n  padding: 0 8px;\n  border-radius: 8px;\n"], ["\n  color: ", ";\n  padding: 0 8px;\n  border-radius: 8px;\n"])), function (_a) {
