@@ -26,3 +26,7 @@ export { default as BondsIcon } from "./Bonds";
 export { default as VaultsIcon } from "./Vaults";
 export { default as EggHouseIcon } from "./EggHouse";
 export { default as DiceIcon } from "./Dice"; 
+export { default as CartIcon } from "./Cart"; 
+
+
+

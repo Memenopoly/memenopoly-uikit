@@ -2040,6 +2040,12 @@ var Icon$16 = function (props) {
             React.createElement("path", { d: "M864 768h-512c-88 0-160-72-160-160v-512c0-88 72-160 160-160h512c88 0 160 72 160 160v512c0 88-72 160-160 160zM416 64c-53.020 0-96 42.98-96 96s42.98 96 96 96 96-42.98 96-96-42.98-96-96-96zM416 448c-53.020 0-96 42.98-96 96s42.98 96 96 96 96-42.98 96-96-42.98-96-96-96zM608 256c-53.020 0-96 42.98-96 96s42.98 96 96 96 96-42.98 96-96-42.98-96-96-96zM800 64c-53.020 0-96 42.98-96 96s42.98 96 96 96 96-42.98 96-96-42.98-96-96-96zM800 448c-53.020 0-96 42.98-96 96s42.98 96 96 96 96-42.98 96-96-42.98-96-96-96zM828.76 832c-14.93 72.804-79.71 128-156.76 128h-512c-88 0-160-72-160-160v-512c0-77.046 55.196-141.83 128-156.76v636.76c0 35.2 28.8 64 64 64h636.76z" }))));
 };
 
+var Icon$17 = function (props) {
+    return (React.createElement(Svg, __assign({ viewBox: "-140 -250 1300 1300" }, props),
+        React.createElement("g", null,
+            React.createElement("path", { d: "M384 32c0-53.019-42.981-96-96-96s-96 42.981-96 96c0 53.019 42.981 96 96 96s96-42.981 96-96zM1024 32c0-53.019-42.981-96-96-96s-96 42.981-96 96c0 53.019 42.981 96 96 96s96-42.981 96-96zM1024 448v384h-768c0 35.346-28.654 64-64 64h-192v-64h128l48.074-412.054c-29.294-23.458-48.074-59.5-48.074-99.946 0-70.696 57.308-128 128-128h768v64h-768c-35.346 0-64 28.654-64 64 0 0.218 0.014 0.436 0.016 0.656l831.984 127.344z" }))));
+};
+
 
 var IconModule = /*#__PURE__*/Object.freeze({
     __proto__: null,
@@ -2071,6 +2077,7 @@ var IconModule = /*#__PURE__*/Object.freeze({
     VaultsIcon: Icon$14,
     EggHouseIcon: Icon$15,
     DiceIcon: Icon$16,
+    CartIcon: Icon$17
 });
 
 var MenuButton = styled(Button)(templateObject_1$x || (templateObject_1$x = __makeTemplateObject(["\n  color: ", ";\n  padding: 0 8px;\n  border-radius: 8px;\n"], ["\n  color: ", ";\n  padding: 0 8px;\n  border-radius: 8px;\n"])), function (_a) {
