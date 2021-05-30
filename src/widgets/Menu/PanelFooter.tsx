@@ -112,7 +112,7 @@ const PanelFooter: React.FC<Props> = ({
           })}
         </Flex>
       </SocialEntry>
-      <SettingsEntry>
+      { /* <SettingsEntry>
         <Button variant="text" onClick={() => toggleTheme(!isDark)}>
           
           <Flex alignItems="center">
@@ -143,7 +143,7 @@ const PanelFooter: React.FC<Props> = ({
             </MenuButton>
           ))}
         </Dropdown>
-      </SettingsEntry> 
+      </SettingsEntry> */ }
     </Container>
   );
 };
