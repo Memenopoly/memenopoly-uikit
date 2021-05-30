@@ -2090,7 +2090,7 @@ var IconModule = /*#__PURE__*/Object.freeze({
     EggHouseIcon: Icon$a,
     DiceIcon: Icon$9,
     CartIcon: Icon$8,
-    Trophycon: Icon$7
+    TrophyIcon: Icon$7
 });
 
 var MenuButton = styled__default['default'](Button)(templateObject_1$d || (templateObject_1$d = __makeTemplateObject(["\n  color: ", ";\n  padding: 0 8px;\n  border-radius: 8px;\n"], ["\n  color: ", ";\n  padding: 0 8px;\n  border-radius: 8px;\n"])), function (_a) {
