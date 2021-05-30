@@ -110,9 +110,9 @@ const PanelFooter: React.FC<Props> = ({
           })}
         </Flex>
       </SocialEntry>
-      <SettingsEntry>
+      { /* <SettingsEntry>
         <Button variant="text" onClick={() => toggleTheme(!isDark)}>
-          {/* alignItems center is a Safari fix */}
+          
           <Flex alignItems="center">
             <SunIcon color={isDark ? "textDisabled" : "text"} width="24px" />
             <Text color="textDisabled" mx="4px">
@@ -141,7 +141,7 @@ const PanelFooter: React.FC<Props> = ({
             </MenuButton>
           ))}
         </Dropdown>
-      </SettingsEntry>
+      </SettingsEntry> */ }
     </Container>
   );
 };
