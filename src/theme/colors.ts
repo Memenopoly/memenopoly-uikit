@@ -14,7 +14,7 @@ export const brandColors = {
   binance: "#F0B90B",
 };
 
-export const lightColors: Colors = {
+/* export const lightColors: Colors = {
   ...baseColors,
   ...brandColors,
   background: "#FAF9FA",
@@ -32,6 +32,28 @@ export const lightColors: Colors = {
     bubblegum: "linear-gradient(139.73deg, #E6FDFF 0%, #F3EFFF 100%)",
   },
 };
+*/
+
+export const lightColors: Colors = {
+  ...baseColors,
+  ...brandColors,
+  background: "#e0eaea",
+  backgroundDisabled: "#b3bbc3",
+  contrast: "#191326",
+  invertedContrast: "#FFFFFF",
+  input: "#d3efff",
+  tertiary: "#EFF4F5",
+  text: "#142e44",
+  textDisabled: "#BDC2C4",
+  textSubtle: "#809dba",
+  borderColor: "#c2c4c5",
+  card: "#afafaf",
+  gradients: {
+    bubblegum: "linear-gradient(139.73deg, #E6FDFF 0%, #F3EFFF 100%)",
+  },
+};
+
+
 
 export const darkColors: Colors = {
   ...baseColors,
