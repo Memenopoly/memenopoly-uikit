@@ -16,11 +16,6 @@ const GridLayout = styled.div`
     grid-template-columns: repeat(12, 1fr);
     grid-gap: 32px;
   }
-
-   background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url(/images/bg.png);
-    background-size: auto, cover;
-    background-attachment: fixed, fixed;
-    background-position: center, center;
 `;
 
 export default GridLayout;
