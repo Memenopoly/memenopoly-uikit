@@ -49,7 +49,7 @@ const PanelBody: React.FC<Props> = ({ isPushed, pushNav, isMobile, links }) => {
               {isPushed &&
                 entry.items.map((item) => (
                   <MenuEntry key={item.href} secondary isActive={item.href === location.pathname} onClick={handleClick}>
-                    <MenuLink href={item.href} target={entry.target ? entry.target : 'top'}>{item.label}</MenuLink>
+                    <MenuLink href={item.href} target={entry.target ? entry.target : '_top'}>{item.label}</MenuLink>
                   </MenuEntry>
                 ))}
             </Accordion>
@@ -57,7 +57,7 @@ const PanelBody: React.FC<Props> = ({ isPushed, pushNav, isMobile, links }) => {
         }
         return (
           <MenuEntry key={entry.label} isActive={entry.href === location.pathname} className={calloutClass}>
-            <MenuLink href={entry.href} onClick={handleClick} target={entry.target ? entry.target : 'top'}>
+            <MenuLink href={entry.href} onClick={handleClick} target={entry.target ? entry.target : '_top'}>
               {iconElement}
               <LinkLabel isPushed={isPushed}>{entry.label}</LinkLabel>
             </MenuLink>
