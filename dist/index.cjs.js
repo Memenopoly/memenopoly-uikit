@@ -353,7 +353,7 @@ var Icon$S = function (props) {
 
 var Icon$R = function (props) {
     return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 32 32" }, props),
-        React__default['default'].createElement("image", { width: "32", height: "32", href: "/images/egg/logo.png" })));
+        React__default['default'].createElement("image", { width: "32", height: "32", href: "/images/logos/mnop-small-sq.png" })));
 };
 
 var Icon$Q = function (props) {
@@ -410,7 +410,7 @@ var Icon$N = function (props) {
 
 var Icon$M = function (props) {
     return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 90 90" }, props),
-        React__default['default'].createElement("image", { width: 90, height: 90, href: "/images/egg/9.png" })));
+        React__default['default'].createElement("image", { width: 90, height: 90, href: "/images/logos/mnop-small-sq.png" })));
 };
 
 var Icon$L = function (props) {
@@ -1140,7 +1140,7 @@ var Progress = function (_a) {
 var rotate = styled.keyframes(templateObject_1$j || (templateObject_1$j = __makeTemplateObject(["\n  from {\n    transform: rotate(0deg);\n  }\n  to {\n    transform: rotate(360deg);\n  }\n"], ["\n  from {\n    transform: rotate(0deg);\n  }\n  to {\n    transform: rotate(360deg);\n  }\n"])));
 var SpinnerIcon = function (props) {
     return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 96 96" }, props),
-        React__default['default'].createElement("image", { width: "96", height: "96", href: "/images/egg/9.png" })));
+        React__default['default'].createElement("image", { width: "96", height: "96", href: "/images/spinner.png" })));
 };
 var Container$3 = styled__default['default'].div(templateObject_2$9 || (templateObject_2$9 = __makeTemplateObject(["\n  position: relative;\n"], ["\n  position: relative;\n"])));
 var RotatingPancakeIcon = styled__default['default'](SpinnerIcon)(templateObject_3$6 || (templateObject_3$6 = __makeTemplateObject(["\n  position: absolute;\n  top: 0;\n  left: 0;\n  animation: ", " 2s linear infinite;\n  transform: translate3d(0, 0, 0);\n"], ["\n  position: absolute;\n  top: 0;\n  left: 0;\n  animation: ", " 2s linear infinite;\n  transform: translate3d(0, 0, 0);\n"])), rotate);
@@ -1885,7 +1885,7 @@ var Icon$s = function (props) {
 var Logo$1 = function (_a) {
     var isDark = _a.isDark, props = __rest(_a, ["isDark"]);
     return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 205 26" }, props),
-        React__default['default'].createElement("image", { width: "205", height: "26", href: isDark ? '/images/egg/LogoTextNewDark.png' : '/images/egg/LogoTextNewWhite.png' })));
+        React__default['default'].createElement("image", { width: "205", height: "26", href: isDark ? '/images/logos/memenopoly-dark.png' : '/images/logos/memenopoly-light.png' })));
 };
 
 var Icon$r = function (props) {
