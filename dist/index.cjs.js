@@ -2347,10 +2347,10 @@ var PanelBody = function (_a) {
         if (entry.items) {
             return (React__default['default'].createElement(Accordion, { key: entry.label, isPushed: isPushed, pushNav: pushNav, icon: iconElement, label: entry.label, initialOpenState: entry.initialOpenState, className: calloutClass }, isPushed &&
                 entry.items.map(function (item) { return (React__default['default'].createElement(MenuEntry, { key: item.href, secondary: true, isActive: item.href === location.pathname, onClick: handleClick },
-                    React__default['default'].createElement(MenuLink, { href: item.href, target: item.target ? item.target : null }, item.label))); })));
+                    React__default['default'].createElement(MenuLink, { href: item.href, target: item.target ? item.target : undefined }, item.label))); })));
         }
         return (React__default['default'].createElement(MenuEntry, { key: entry.label, isActive: entry.href === location.pathname, className: calloutClass },
-            React__default['default'].createElement(MenuLink, { href: entry.href, onClick: handleClick, target: entry.target ? entry.target : null },
+            React__default['default'].createElement(MenuLink, { href: entry.href, onClick: handleClick, target: entry.target ? entry.target : undefined },
                 iconElement,
                 React__default['default'].createElement(LinkLabel, { isPushed: isPushed }, entry.label))));
     })));
@@ -2818,9 +2818,9 @@ var templateObject_1;
 var baseColors = {
     failure: "#ED4B9E",
     // primary: "#aa8929",
-    primary: "#259800",
-    primaryBright: "#62ab4a",
-    primaryDark: "#235014",
+    primary: "#d42727",
+    primaryBright: "#b50000",
+    primaryDark: "#842121",
     secondary: "#7645D9",
     success: "#31D0AA",
     warning: "#FFB237",
@@ -2850,7 +2850,7 @@ var brandColors = {
 var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { background: "#e0eaea", backgroundDisabled: "#b3bbc3", contrast: "#191326", invertedContrast: "#FFFFFF", input: "#d3efff", tertiary: "#EFF4F5", text: "#142e44", textDisabled: "#BDC2C4", textSubtle: "#809dba", borderColor: "#c2c4c5", card: "#afafaf", gradients: {
         bubblegum: "linear-gradient(139.73deg, #E6FDFF 0%, #F3EFFF 100%)",
     } });
-var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#9A6AFF", background: "#343135", backgroundDisabled: "#3c3742", contrast: "#FFFFFF", invertedContrast: "#191326", input: "#483f5a", primaryDark: "#235014", tertiary: "#353547", text: "#EAE2FC", textDisabled: "#666171", textSubtle: "#c9c4d4", borderColor: "#524B63", card: "#27262c", gradients: {
+var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#9A6AFF", background: "#343135", backgroundDisabled: "#3c3742", contrast: "#FFFFFF", invertedContrast: "#191326", input: "#483f5a", primaryDark: "#0098A1", tertiary: "#353547", text: "#EAE2FC", textDisabled: "#666171", textSubtle: "#c9c4d4", borderColor: "#524B63", card: "#27262c", gradients: {
         bubblegum: "linear-gradient(139.73deg, #313D5C 0%, #3D2A54 100%)",
     } });
 
