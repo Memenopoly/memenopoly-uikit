@@ -2808,9 +2808,11 @@ var baseColors = {
     primary: "#d42727",
     primaryBright: "#b50000",
     primaryDark: "#842121",
-    secondary: "#7645D9",
+    //secondary: "#7645D9",
+    secondary: "#6a82ff",
     success: "#31D0AA",
     warning: "#FFB237",
+    cta: "23e233"
 };
 var brandColors = {
     binance: "#F0B90B",
