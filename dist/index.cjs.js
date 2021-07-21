@@ -2118,7 +2118,7 @@ var Logo = function (_a) {
         React__default['default'].createElement(Logo$1, { className: "desktop-icon", isDark: isDark })));
     return (React__default['default'].createElement(Flex, null,
         React__default['default'].createElement(MenuButton, { "aria-label": "Toggle menu", onClick: togglePush, mr: "24px" }, isPushed ? (React__default['default'].createElement(Icon$w, { width: "24px", color: "textSubtle" })) : (React__default['default'].createElement(Icon$x, { width: "24px", color: "textSubtle" }))),
-        isAbsoluteUrl ? (React__default['default'].createElement(StyledLink, { as: "a", href: href, "aria-label": "Pancake home page" }, innerLogo)) : (React__default['default'].createElement(StyledLink, { to: href, "aria-label": "Pancake home page" }, innerLogo))));
+        isAbsoluteUrl ? (React__default['default'].createElement(StyledLink, { as: "a", href: href, "aria-label": "Memenopoly home page" }, innerLogo)) : (React__default['default'].createElement(StyledLink, { to: href, "aria-label": "Memenopoly home page" }, innerLogo))));
 };
 var templateObject_1$c;
 
@@ -2849,7 +2849,9 @@ var brandColors = {
   },
 };
 */
-var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { background: "#e0eaea", backgroundDisabled: "#b3bbc3", contrast: "#191326", invertedContrast: "#FFFFFF", input: "#d3efff", tertiary: "#EFF4F5", text: "#142e44", textDisabled: "#BDC2C4", textSubtle: "#809dba", borderColor: "#c2c4c5", card: "#afafaf", gradients: {
+var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { 
+    //background: "#e0eaea",
+    background: "#1d1e21", backgroundDisabled: "#b3bbc3", contrast: "#191326", invertedContrast: "#FFFFFF", input: "#d3efff", tertiary: "#EFF4F5", text: "#142e44", textDisabled: "#BDC2C4", textSubtle: "#809dba", borderColor: "#c2c4c5", card: "#afafaf", gradients: {
         bubblegum: "linear-gradient(139.73deg, #E6FDFF 0%, #F3EFFF 100%)",
     } });
 var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#6a82ff", background: "#343135", backgroundDisabled: "#3c3742", contrast: "#FFFFFF", invertedContrast: "#191326", input: "#483f5a", primaryDark: "#0098A1", tertiary: "#353547", text: "#EAE2FC", textDisabled: "#666171", textSubtle: "#c9c4d4", borderColor: "#524B63", card: "#27262c", gradients: {
