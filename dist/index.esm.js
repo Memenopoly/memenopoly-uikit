@@ -2234,11 +2234,11 @@ var socials = [
         icon: "TwitterIcon",
         href: "https://www.twitter.com/Memenopoly",
     },
-    {
-        label: "Reddit",
-        icon: "RedditIcon",
-        href: "https://www.reddit.com/r/MemenopolyGame",
-    },
+    /*   {
+           label: "Reddit",
+           icon: "RedditIcon",
+           href: "https://www.reddit.com/r/MemenopolyGame",
+       }, */
 ];
 var MENU_HEIGHT = 64;
 var MENU_ENTRY_HEIGHT = 48;
