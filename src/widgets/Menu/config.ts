@@ -125,11 +125,11 @@ export const socials = [
         icon: "TwitterIcon",
         href: "https://www.twitter.com/Memenopoly",
     },
-    {
+ /*   {
         label: "Reddit",
         icon: "RedditIcon",
         href: "https://www.reddit.com/r/MemenopolyGame",
-    },
+    }, */
 ];
 
 export const MENU_HEIGHT = 64;
