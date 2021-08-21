@@ -117,13 +117,43 @@ export const socials = [
   {
         label: "Telegram",
         icon: "TelegramIcon",
-        href: "https://t.me/Memenopoly",
-        
+        items: [
+            // {
+            //   label: "Voting",
+            //   href: "https://voting.pancakeswap.finance",
+            // },
+            {
+                label: "Main Channel",
+                href: "https://t.me/memenopoly",
+            },
+            {
+                label: "NFT Traders",
+                href: "https://t.me/MemenopolyNFT",
+            },
+            {
+                label: "Price Channel",
+                href: "https://t.me/mnop_price",
+            },
+            {
+                label: "French Community",
+                href: "https://t.me/MemenopolyFR",
+            },
+            {
+                label: "Chinese Community",
+                href: "https://t.me/joinchat/5JCVrIqRaXVjM2Yx",
+            }
+        ]
     },
+
     {
         label: "Twitter",
         icon: "TwitterIcon",
         href: "https://www.twitter.com/Memenopoly",
+    },
+    {
+        label: "Instagram",
+        icon: "InstagramIcon",
+        href: "https://www.instagram.com/memenopoly_game/",
     },
  /*   {
         label: "Reddit",
