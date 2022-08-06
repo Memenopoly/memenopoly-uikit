@@ -10,7 +10,7 @@ export const baseColors = {
   secondary: "#6a82ff",
   success: "#89ba80",
   warning: "#FFB237",
-  cta: "#23e233"
+  cta: "#23e233",
 };
 
 export const brandColors = {
@@ -56,8 +56,6 @@ export const lightColors: Colors = {
     bubblegum: "linear-gradient(139.73deg, #E6FDFF 0%, #F3EFFF 100%)",
   },
 };
-
-
 
 export const darkColors: Colors = {
   ...baseColors,

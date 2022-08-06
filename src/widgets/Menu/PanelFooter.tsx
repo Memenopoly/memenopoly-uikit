@@ -15,7 +15,7 @@ import { PanelProps, PushedProps } from "./types";
 
 interface Props extends PanelProps, PushedProps {}
 
-const Icons = (IconModule as unknown) as { [key: string]: React.FC<SvgProps> };
+const Icons = IconModule as unknown as { [key: string]: React.FC<SvgProps> };
 const { MoonIcon, SunIcon, LanguageIcon } = Icons;
 
 const Container = styled.div`
@@ -91,11 +91,13 @@ const PanelFooter: React.FC<Props> = ({
             const Icon = Icons[social.icon];
             const iconProps = { width: "24px", color: "textSubtle", style: { cursor: "pointer" } };
             const mr = index < socials.length - 1 ? "8px" : 0;
-            {/* @ts-ignore  */}
+            {
+              /* @ts-ignore  */
+            }
             if (social.items) {
               return (
                 <Dropdown key={social.label} position="top" target={<Icon {...iconProps} mr={mr} />}>
-                {/* @ts-ignore  */}
+                  {/* @ts-ignore  */}
                   {social.items.map((item) => (
                     <Link external key={item.label} href={item.href} aria-label={item.label} color="textSubtle">
                       {item.label}
@@ -112,7 +114,7 @@ const PanelFooter: React.FC<Props> = ({
           })}
         </Flex>
       </SocialEntry>
-      { /* <SettingsEntry>
+      {/* <SettingsEntry>
         <Button variant="text" onClick={() => toggleTheme(!isDark)}>
           
           <Flex alignItems="center">
@@ -143,7 +145,7 @@ const PanelFooter: React.FC<Props> = ({
             </MenuButton>
           ))}
         </Dropdown>
-      </SettingsEntry> */ }
+      </SettingsEntry> */}
     </Container>
   );
 };

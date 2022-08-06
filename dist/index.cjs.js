@@ -2253,7 +2253,7 @@ var socials = [
             // },
             {
                 label: "Main Channel",
-                href: "https://t.me/memenopoly",
+                href: "https://t.me/metaboards",
             },
             {
                 label: "NFT Traders",
